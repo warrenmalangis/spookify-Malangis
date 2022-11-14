@@ -64,6 +64,9 @@ ol[class] {
   margin-right: 80px;
   margin-left: -60px;
 }
+.select:hover {
+  opacity: 0.7;
+}
 .nav-logo{
   font-family:Calibri;
   font-weight: bold;
@@ -73,6 +76,9 @@ ol[class] {
 }
 .nav-logo1{
   color:#F55D3A;
+}
+.nav-logo:hover .nav-logo1:hover {
+  cursor: pointer;
 }
 .Image{
   margin-left: 72%;
@@ -110,6 +116,9 @@ h2{
   cursor: pointer;
   margin-left:12%;
   font-weight: bold;
+}
+.started:hover {
+  opacity: 0.7;
 }
 .main, .top-authors, .name, .fp
 , .ft, .fs{
@@ -177,6 +186,9 @@ h2{
   margin-left: -0.3%;
   filter: drop-shadow(1px 1px 4px rgba(128, 128, 128, 0.244));
 }
+.readmore:hover .readmore1:hover {
+  opacity: 0.7;
+}
 .readmore1{
   margin-left: -27.2%;
 }
@@ -240,8 +252,12 @@ h2{
 }
 .vector{
   width: 101%;
+  max-width: 100%;
   margin-left: -1%;
   margin-bottom:-1%;
+}
+.f {
+  max-width: 100%;
 }
 .f, .Ds, .ft, .fs,.fp{
   position: absolute;
@@ -271,4 +287,9 @@ h2{
   color: #FFFAFB;
   font-size: 18px;
   font-weight: bold;
+}
+@media screen and (max-width: 800px) {
+  .header_section .hero.spooky-stories .spooky-authors .f {
+    width: 100%;
+  }
 }
