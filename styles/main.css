@@ -208,20 +208,20 @@ h2{
   text-align: center;
   filter: none;
 }
-.authors{
+.spooky-authors{
   margin-bottom: 40%;
   
 }
-.authors1, .authors2, .authors3{
+.authors-1, .authors-2, .authors-3{
   position:absolute;
   margin-left: 9%;
   text-align: center;
 
 }
-.authors2{
+.authors-2{
   margin-left: 40%;
 }
-.authors3{
+.authors-3{
   margin-left: 67%;
 }
 .name{
